@@ -12,6 +12,6 @@ public class Test5 {
     Dog yourDog = context.getBean("myPet", Dog.class);
     yourDog.say();
 
-    context.close("");
+    context.close();
   }
 }
