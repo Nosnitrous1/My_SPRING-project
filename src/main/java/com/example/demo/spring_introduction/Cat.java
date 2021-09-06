@@ -3,7 +3,7 @@ package com.example.demo.spring_introduction;
 import org.springframework.stereotype.Component;
 
 //@Component("catBean")
-@Component
+@Component("catBean")
 public class Cat implements Pet {
   public Cat() {
     System.out.println("Bean Cat is created");
